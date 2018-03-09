@@ -1,0 +1,706 @@
+body{
+	font-family: "Î¢ÈíÑÅºÚ","ËÎÌå",Times,serif;
+}
+/*header*/
+#header{
+	width: 100%;
+	height: 886px;
+	background:url(../images/WOT/indexBg.jpg) no-repeat center center;
+	background-size:auto 100%;
+}
+#header .center{
+	width: 1190px;
+	height: 100%;
+	margin:0 auto;
+	position:relative;
+}
+#header .i-logo{
+	width: 448px;
+	height: 120px;
+}
+#header .Big_news{
+	width: 100%;
+	height: 50%;
+	display:block;
+	position:absolute;
+	left:0;
+	top:0;
+	z-index:0;
+}
+#header .inner{
+	width: 480px;
+	height: 158px;
+	background:url(../images/WOT/iBtnBg.png) no-repeat;
+	position:absolute;
+	right:-85px;
+	top:340px;
+}
+#header .inner .jinru{
+	display:block;
+	width: 144px;
+	height: 57px;
+	margin-top:42px;
+	padding:14px 0 0 50px;
+}
+#header .inner .jinru p.big-world{
+	font-size:25px;
+	color:#fff;
+	text-shadow:2px 2px 3px rgba(255,255,255,0.5);
+}
+#header .inner .jinru p.small-world{
+	font-size:10px;
+	color:#fff;
+	text-shadow:2px 2px 3px rgba(255,255,255,0.5);
+	margin-left:35px;
+	margin-top:5px;
+}
+#header .inner .xiazai{
+	display:block;
+	width: 144px;
+	height: 57px;
+	margin-top:42px;
+	padding:14px 0 0 50px;
+}
+#header .inner .xiazai p.big-world{
+	font-size:25px;
+	color:#fff;
+	text-shadow:2px 2px 3px rgba(255,255,255,0.5);
+}
+#header .inner .xiazai p.small-world{
+	font-size:10px;
+	color:#fff;
+	text-shadow:2px 2px 3px rgba(255,255,255,0.5);
+	margin-left:25px;
+	margin-top:5px;
+}
+#header .zhuce{
+	width: 100%;
+	height: 351px;
+	background:url(../images/WOT/iRegBg.jpg) no-repeat;
+	margin-top:351px;
+	padding-top:20px;
+}
+#header .zhuce .one{
+	width: 419px;
+	height: 338px;
+}
+#header .zhuce .one .title{
+	width: 100%;
+	height: 42px;
+}
+#header .zhuce .one .title .l1{
+	width: 372px;
+	height: 100%;
+	margin:0 auto;
+	background:url(../images/WOT/iSprite.png) no-repeat 0px -270px;
+}
+#header .zhuce .one .box{
+	width: 100%;
+	height: 193px;
+	padding-top:20px;
+}
+#header .zhuce .one .box img{
+	display:block;
+	margin:0 auto;
+}
+#header .zhuce .one .btn{
+	width: 100%;
+	height: 52px;
+	margin-top:30px;
+
+}
+#header .zhuce .one .btn a{
+	display:block;
+	width: 356px;
+	height: 100%;
+	margin:0 auto;
+	background:url(../images/WOT/iSprite.png) no-repeat -400px 0px;
+}
+#header .zhuce .one .btn:hover a{
+	background:url(../images/WOT/iSprite.png) no-repeat -400px -52px;
+}
+#header .zhuce .two{
+	width: 350px;
+	height: 338px;
+	border-left:1px solid #34322e;
+	border-right:1px solid #34322e;
+}
+#header .zhuce .two .title{
+	width: 100%;
+	height: 42px;
+	z-index:999;
+}
+#header .zhuce .two .title .l1{
+	width: 260px;
+	height: 100%;
+	margin:0 auto;
+	background:url(../images/WOT/iSprite.png) no-repeat 0px -312px;
+}
+#header .zhuce .two .tab{
+	width: 300px;
+	height: 44px;
+	margin:0 auto;
+	margin-top:10px;
+}
+#header .zhuce .two .con{
+	width: 300px;
+	height: 232px;
+	margin:0 auto;
+	padding-top:10px;
+	position:relative;
+}
+#header .zhuce .two .tab .left{
+	width: 50%;
+	height: 100%;
+	background:url(../images/WOT/tab.png) no-repeat;
+	cursor:pointer;
+}
+#header .zhuce .two .tab .lefthover{
+	width: 50%;
+	height: 100%;
+	background:url(../images/WOT/tab.png) no-repeat 0 -44px;
+	cursor:pointer;
+}
+#header .zhuce .two .tab .righthover{
+	width: 50%;
+	height: 100%;
+	background:url(../images/WOT/tab.png) no-repeat -150px 0;
+	cursor:pointer;
+}
+#header .zhuce .two .tab .right{
+	width: 50%;
+	height: 100%;
+	background:url(../images/WOT/tab.png) no-repeat -150px -44px;
+	cursor:pointer;
+}
+/**************************************************************************************************************************/
+#header .zhuce .two .con .SJZC{
+	width: 100%;
+	height: 205px;
+	position:absolute;
+	left:0;
+	top:0;
+}
+#header .zhuce .two .con .SJZC dl.line{
+	width: 100%;
+	height: 28px;
+	border-bottom:1px dashed #606060;
+}
+#header .zhuce .two .con .SJZC dl.line dt{
+	width: 80px;
+	height: 28px;
+	line-height:28px;
+	font-size:12px;
+	padding-left:10px;
+	color:#F6F6F6;
+}
+#header .zhuce .two .con .SJZC dl.line dd{
+	width: 210px;
+	height: 28px;
+}
+#header .zhuce .two .con .SJZC dl.line dd input{
+	width: 210px;
+	height: 100%;
+	font-size:12px;
+	border:none;
+	background:none;
+	color:#989797;
+}
+#header .zhuce .two .con .SJZC dl.linefind dd.top{
+	width: 175px;
+	height: 28px;
+	text-align:right;
+	line-height:28px;
+	font-size:14px;
+	color:#fc720d;
+	cursor:pointer;
+}
+#header .zhuce .two .con .SJZC dl.linefind dd.top:hover{
+	color:#E6A641;
+	text-decoration:underline;
+}
+#header .zhuce .two .con .SJZC dl.linefind dl.bottom{
+	width: 100%;
+	height: 28px;
+}
+#header .zhuce .two .con .SJZC dl.bottom dt{
+	width: 80px;
+	height: 28px;
+	line-height:28px;
+	font-size:12px;
+	padding-left:10px;
+	color:#F6F6F6;
+}
+#header .zhuce .two .con .SJZC dl.bottom dd{
+	width: 210px;
+	height: 28px;
+}
+#header .zhuce .two .con .SJZC dl.bottom dd input{
+	width: 210px;
+	height: 100%;
+	font-size:12px;
+	border:none;
+	background:none;
+	color:#989797;
+}
+#header .zhuce .two .con .foot{
+	width: 100%;
+	height: 40px;
+	position:absolute;
+	bottom:0;
+	left:0;
+}
+#header .zhuce .two .con .foot .book{
+	width: 130px;
+	height: 100%;
+	position:relative;
+}
+#header .zhuce .two .con .foot .book .check{
+	width: 13px;
+	height: 13px;
+	position:absolute;
+	left:0;
+	top:30%;
+}
+#header .zhuce .two .con .foot .book .read{
+	width: 106px;
+	height: 100%;
+	position:absolute;
+	right:0;
+	top:0;
+}
+#header .zhuce .two .con .foot .book .read .L1{
+	width: 100%;
+	height: 50%;
+	font-size:12px;
+	line-height:30px;
+	color:#CCCCCC;
+}
+#header .zhuce .two .con .foot .book .read a{
+	width: 100%;
+	height: 50%;
+	display:block;
+	font-size:11px;
+	line-height:20px;
+	color:#fc720d;
+}
+#header .zhuce .two .con .foot .book .read a:hover{
+	text-decoration:underline;
+}
+#header .zhuce .two .con .foot .btn{
+	width: 160px;
+	height: 40px;
+	background:#0f0;
+	background:url(../images/WOT/tab.png) no-repeat -72px -94px;
+	cursor:pointer;
+}
+#header .zhuce .two .con .foot .btn:hover{
+	background:url(../images/WOT/tab.png) no-repeat -72px -146px;
+}
+
+/**********************************************************************************/
+#header .zhuce .two .con .YXZC{
+	width: 100%;
+	height: 205px;
+	position:absolute;
+	left:0;
+	top:0;
+	display:none;
+}
+#header .zhuce .two .con .YXZC dl.line{
+	width: 100%;
+	height: 28px;
+	border-bottom:1px dashed #606060;
+}
+#header .zhuce .two .con .YXZC dl.line dt{
+	width: 80px;
+	height: 28px;
+	line-height:28px;
+	font-size:12px;
+	padding-left:10px;
+	color:#F6F6F6;
+}
+#header .zhuce .two .con .YXZC dl.line dd{
+	width: 210px;
+	height: 28px;
+}
+#header .zhuce .two .con .YXZC dl.line dd input{
+	width: 210px;
+	height: 100%;
+	font-size:12px;
+	border:none;
+	background:none;
+	color:#989797;
+}
+#header .zhuce .two .con .YXZC dl.linefind dd.top:hover{
+	color:#E6A641;
+	text-decoration:underline;
+}
+#header .zhuce .two .con .YXZC dl.linefind dl.bottom{
+	width: 100%;
+	height: 28px;
+}
+#header .zhuce .two .con .YXZC dl.bottom dt{
+	width: 80px;
+	height: 28px;
+	line-height:28px;
+	font-size:12px;
+	padding-left:10px;
+	color:#F6F6F6;
+}
+#header .zhuce .two .con .YXZC dl.bottom dd{
+	width: 210px;
+	height: 28px;
+}
+#header .zhuce .two .con .YXZC dl.bottom dd input{
+	width: 210px;
+	height: 100%;
+	font-size:12px;
+	border:none;
+	background:none;
+	color:#989797;
+}
+#header .zhuce .three{
+	width: 419px;
+	height: 338px;
+}
+#header .zhuce .three .title{
+	width: 270px;
+	height: 42px;
+	margin:0 auto;
+	background:url(../images/WOT/iSprite.png) no-repeat 0 -354px;
+}
+#header .zhuce .three .box{
+	width: 100%;
+	height: 227px;
+}
+#header .zhuce .three img{
+	display:block;
+	margin:0 auto;
+	margin-top:10px;
+}
+#header .zhuce .three .btn{
+	width: 304px;
+	height: 52px;
+	margin:0 auto;
+}
+#header .zhuce .three .btn a{
+	width: 100%;
+	height: 100%;
+	display:block;
+	background:url(../images/WOT/iSprite.png) no-repeat -400px -208px;
+}
+#header .zhuce .three .btn a:hover{
+	background:url(../images/WOT/iSprite.png) no-repeat -400px -260px;
+}
+#header .zhuce .coming{
+	width: 65px;
+	height: 36px;
+	background:url(../images/WOT/iSprite.png) no-repeat scroll -302px 0;
+	position:absolute;
+	bottom:-14px;
+	left:47%;
+	animation:myfirst 1.5s infinite;
+}
+@keyframes myfirst{
+	0%{bottom:-14px;}
+	50%{bottom:-6px;}
+	100%{bottom:-14px;}
+}
+/*header end*/
+/*banner*/
+#banner{
+	width: 100%;
+	height: 220px;
+	background: rgba(0, 0, 0, 0) url(../images/WOT/iMenuBg.jpg) no-repeat scroll center 0;
+}
+#banner .bannerbg{
+	width: 100%;
+	height: 100%;
+	background: rgba(0, 0, 0, 0) url(../images/WOT/iMenu.png) no-repeat scroll center 0;
+}
+#banner .bannerbg li{
+	width: 237px;
+	height: 220px;
+	float:left;
+	margin-right:1px;
+}
+#banner .bannerbg li a{
+	display:block;
+	padding-top:70px;
+	position:relative;
+	text-align:center;
+}
+#banner .bannerbg li a .ibg1{
+	width: 65px;
+	height: 50px;
+	display:block;
+	margin-left:84px;
+	background:url(../images/WOT/iSprite.png) no-repeat;
+}
+#banner .bannerbg li a .icon1{
+	color:#ebe3d1;
+	line-height:22px;
+	font-size:22px;
+	margin:0 auto;
+	margin-top:8px;
+	display:block;
+}
+#banner .bannerbg li a .icon1-1{
+	font-size:10px;
+	color: #fff7e3;
+	display:block;
+	margin:0 auto;
+	margin-top:2px;
+}
+#banner .bannerbg li:hover{
+	background:url(../images/WOT/iSprite.png) no-repeat -65px -2px rgba(255,0,0,0.3);
+}
+
+#banner .bannerbg li a .ibg2{
+	width: 65px;
+	height: 50px;
+	display:block;
+	margin-left:84px;
+	background:url(../images/WOT/iSprite.png) no-repeat 0 -50px;
+}
+#banner .bannerbg li a .ibg3{
+	width: 65px;
+	height: 50px;
+	display:block;
+	margin-left:84px;
+	background:url(../images/WOT/iSprite.png) no-repeat 0 -100px;
+}
+#banner .bannerbg li a .ibg4{
+	width: 65px;
+	height: 50px;
+	display:block;
+	margin-left:84px;
+	background:url(../images/WOT/iSprite.png) no-repeat 0 -150px;
+}
+#banner .bannerbg li a .ibg5{
+	width: 65px;
+	height: 50px;
+	display:block;
+	margin-left:84px;
+	background:url(../images/WOT/iSprite.png) no-repeat 0 -200px;
+}
+/*banner dend*/
+/*content*/
+#content{
+	width: 100%;
+	height: 670px;
+	padding-top:50px;
+	position:relative;
+}
+#content .tab{
+	width: 1116px;
+	height: 50px;
+	background:#212124;
+	margin:0 auto;
+	border:1px solid #392721;
+	position:relative;	
+	z-index:5;
+}
+#content .tab li{
+	width: 372px;
+	height: 48px;
+	float:left;
+	line-height:50px;
+	font-size:18px;
+	text-align:center;
+	color:#fefbf4;
+}
+#content .tab li:hover{
+	border-bottom:3px solid #fc720d;
+	color:#fc720d;
+	cursor:pointer;
+}
+#content .tab li.click{
+	border-bottom:3px solid #fc720d;
+	color:#fc720d;
+	cursor:pointer;
+}
+#content .background{
+	width: 100%;
+	height: 100%;
+	position:absolute;
+	left:0;
+	top:0;
+	z-index:1;
+}
+#content .background .D1{
+	width: 100%;
+	height: 100%;
+	background:url(../images/WOT/iAbout1.jpg) no-repeat center 0;
+	position:relative;
+}
+#content .background .D1 .center1{
+	width: 1118px;
+	height: 720px;
+	position:relative;
+	margin:0 auto;
+}
+#content .background .D1 .name{
+	width: 119px;
+	height: 30px;
+	font-size:18px;
+	line-height:29px;
+	text-align:center;
+	position:absolute;
+	left:12px;
+	top:300px;
+	color:#fff;
+	background: rgba(0, 0, 0, 0) url(../images/WOT/iTankNameBg.png) no-repeat ;
+	font-family: "Î¢ÈíÑÅºÚ","ËÎÌå",Times,serif;
+}
+#content .background .D1 .world{
+	width: 320px;
+	height: 144px;
+	font-size:12px;
+	position:absolute;
+	top:360px;
+	left:12px;
+	color:#cacaca;
+	font-family: "Î¢ÈíÑÅºÚ","ËÎÌå",Times,serif;
+	line-height:24px;
+}
+#content .background .D1 img{
+	position:absolute;
+	bottom:130px;
+	right:130px;
+	width: 710px;
+	height: 297px;
+}
+
+#content .background .D2{
+	width: 100%;
+	height: 100%;
+	background: url(../images/WOT/iAbout2.jpg) no-repeat center 0;
+	position:relative;
+	display:none;
+}
+#content .background .D2 .history{
+	width: 1118px;
+	padding-top:160px;
+	margin:0 auto;
+}
+#content .background .D2 .history .title{
+	color: #fc720d;
+	font-size:20px;
+	margin-bottom:20px;
+}
+#content .background .D2 .history .world{
+	color:#cacaca;
+	font-size:12px;
+	line-height:24px;
+	font-family: "Î¢ÈíÑÅºÚ","ËÎÌå",Times,serif;
+}
+#content .background .D2 .D2-pic1{
+	margin-top:22px;
+	display:block;
+	border:1px solid #535045;
+}
+#content .background .D2 .D2-pic2{
+	margin-top:22px;
+	display:block;
+	border:1px solid #535045;
+}
+#content .D3{
+	width: 100%;
+	height: 100%;
+	background:url(../images/WOT/iAbout3.jpg) no-repeat center 0;
+	position:relative;
+	display:none;
+}
+#content .D3 ul p{
+	position:absolute;
+	left:0;
+	top:0;
+	width: 100%;
+	height: 100%;
+	display:block;
+	background:#33333a;
+	opacity:0.35;
+
+}
+#content .D3 ul{
+	float:left;
+	width: 320px;
+	height: 500px;
+	border:1px solid #3d2b25;
+}
+#content .D3 ul{
+	margin-left:37px;	
+	margin-top:180px;
+	position:relative;
+}
+#content .D3 ul.margin-left{
+	margin-left:78px;
+}
+#content .D3 ul .title{
+	width: 70px;
+	height: 90px;
+	position:absolute;
+	top:-20px;
+	left:42%;
+	text-align:center;
+	color:#fff;
+	font-size:14px;
+}
+#content .D3 ul .map{
+	width: 100%;
+	height: 234px;
+	position:relative;
+}
+#content .D3 ul .map img{
+	display:block;
+	margin:0 auto;
+	border:1px solid #fff;
+	margin-top:80px;
+}
+#content .D3 ul .world{
+	width: 275px;
+	height: 100px;
+	padding:20px 22px 0;
+	color:#ededed;
+	font-size:12px;
+	line-height:24px;
+	position:relative;
+}
+/*content end*/
+/*footer*/
+#footer{
+	width: 100%;
+	height: 187px;
+	background:#000;
+	border-top:1px solid #E47601;
+	padding-top:26px;
+}
+#footer .footcenter{
+	width: 800px;
+	height: 100px;
+	margin:0 auto;
+}
+#footer .logo{
+	width: 280px;
+	height: 50px;
+	background:url(../images/WOT/f_hr.png) no-repeat 251px 0;
+}
+#footer .logo a{
+	display:block;
+}
+#footer .logo p{
+	margin-left:20px;
+}
+#footer .right{
+	width: 520px;
+	height: 100%;
+}
+#footer .right ul{
+	width: 100%;
+	height: 20px;
+	line-height:20px;
+	color:rgb(109, 104, 98);
+}
+/*footer end*/

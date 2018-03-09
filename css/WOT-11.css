@@ -1,0 +1,2873 @@
+body{
+	background:#1a1919;
+	font-family: "Î¢ÈíÑÅºÚ","ËÎÌå",Times,serif;
+}
+/*header*/
+#header{
+	width: 100%;
+	height: 44px;
+	background:#fff;
+}
+#header .center{
+	position:relative;
+	margin:0 auto;
+}
+#header .logo{
+	width: 86px;
+	height: 44px;
+	margin-left:16px;
+	position:relative;
+	z-index:3;
+}
+#header .logo img{
+	margin-top:3px;
+}
+#header .game{
+	width: 500px;
+	height: 43px;
+	position:absolute;
+	left:120px;
+	top:0;
+}
+#header .game:hover{
+	height:200px;
+	transition:0.5s;
+}
+#header .all_game{
+	width: 500px;
+	height: 43px;
+	position:absolute;
+	left:0px;
+	top:0;
+	overflow:hidden;
+	cursor:pointer;
+	z-index:1;
+}
+#header .all_gamerun{
+	width: 500px;
+	height: 500px;
+	position:absolute;
+	left:0;
+	top:0;
+}
+#header .all_gamepic{
+	width: 1200px;
+	z-index:0;
+	margin:0 auto;
+}
+#header .all_gamepic ul{
+	width: 1200px;
+	height: 0px;
+	z-index:2;
+	margin:0 auto;
+	position:absolute;
+	left:-120px;
+	top:0;
+}
+#header .all_gamepic ul img{
+	display:none;
+}
+#header .load{
+	width: 204px;
+	height: 43px;
+	position:absolute;
+	right:150px;
+	top:0;
+}
+#header .load ul{
+	padding:0 10px;
+	line-height:43px;
+	float:left;
+	font-size:14px;
+}
+#header .load ul a{
+	color:#7d7c7c;
+	font-family: "Microsoft Yahei", Verdana, Arial, Helvetica, sans-serif;
+}
+#header .load ul a:hover{
+	color:#000;
+}
+#header .another{
+	width: 160px;
+	height: 43px;
+	position:absolute;
+	right:0;
+	top:0;
+	z-index:3;
+	font-size:14px;
+	line-height:43px;
+	color:#7d7c7c;
+	text-align:center;
+	transition:0.2s;
+	font-family: "Microsoft Yahei", Verdana, Arial, Helvetica, sans-serif;
+}
+#header .another p{
+	display:block;
+	width: 10px;
+	height: 6px;
+	float:right;
+	margin-top:18px;
+	margin-right:20px;
+	background:url(../images/WOT/top_ico.png) no-repeat;
+	transition:0.2s;
+	font-family: "Microsoft Yahei", Verdana, Arial, Helvetica, sans-serif;
+}
+#header .another:hover{
+	background:#f0f0f0;
+	box-shadow:3px 0 8px rgba(0,0,0,.15);
+	color:#f90;
+	transition:0.2s;
+}
+#header .another:hover p{
+	background:url(../images/WOT/top_ico.png) no-repeat 0 -6px;
+	transform:rotate(180deg);
+	transition:0.2s;
+}
+#header #anotherBox{
+	width: 1000px;
+	height:0px;
+	background:#fff;
+	position:absolute;
+	right:0;
+	top:43px;
+}
+#header .anotherbox{
+	width: 1000px;
+	height: 280px;
+	background:#fff;
+	position:absolute;
+	right:0;
+	top:0;
+	z-index:4;
+	padding-top:10px;
+	display:none;
+	text-align:left;
+}
+#header .anotherbox .KHD{
+	width: 420px;
+	height: 260px;
+}
+#header .anotherbox .KHD h2{
+	width: 100%;
+	height: 40px;
+	background:#f5f5f5;
+	line-height:40px;
+	color:#ed6b00;
+	font-size:14px;
+	text-align:center;
+}
+#header .anotherbox .KHD .JWYX{
+	width: 260px;
+	height: 172px;
+}
+#header .anotherbox .KHD .JWYX h3{
+	width: 100%;
+	height: 36px;
+	background:#fff;
+	margin:18px 0 10px;
+	text-align:center;
+	line-height:36px;
+	color:#333;
+}
+#header .anotherbox .KHD .gamelost{
+	width: 215px;
+	height: 108px;
+	margin-left:45px;
+}
+#header .anotherbox .KHD .gamelost li{
+	width: 94px;
+	height: 36px;
+	float:left;
+	font-size:14px;
+	line-height:36px;
+}
+#header .anotherbox .KHD .gamelost li a{
+	color:#333;
+}
+#header .anotherbox .KHD .gamelost li.Hot i{
+	width: 11px;
+	height: 11px;
+	display:block;
+	background:url(../images/WOT/top_ico.png) no-repeat -21px -20px;
+	float:right;
+	margin:14% 20px 0 0;
+}
+#header .anotherbox .KHD .gamelost li.New i{
+	width: 11px;
+	height: 11px;
+	display:block;
+	background:url(../images/WOT/top_ico.png) no-repeat -43px -20px;
+	float:right;
+	margin:14% 20px 0 0;
+}
+#header .anotherbox .KHD .gamelost li a:hover{
+	color:#ed6b00;
+}
+
+#header .anotherbox .KHD .DXYX{
+	width: 159px;
+	height: 208px;	
+	border-left:1px solid #EAEAEA;
+}
+#header .anotherbox .KHD .DXYX h3{
+	width: 100%;
+	height: 36px;
+	background:#fff;
+	margin:18px 0 10px;
+	text-align:center;
+	line-height:36px;
+	color:#333;
+}
+#header .anotherbox .KHD .DXYX .gamelost{
+	width: 113px;
+	height: 144px;
+}
+
+#header .anotherbox .SJYX{
+	width: 260px;
+	height: 260px;
+	border-left:1px solid #EAEAEA;
+	border-right:1px solid #EAEAEA;
+}
+#header .anotherbox .SJYX h2{
+	width: 100%;
+	height: 40px;
+	background:#f5f5f5;
+	line-height:40px;
+	color:#ed6b00;
+	font-size:14px;
+	text-align:center;
+}
+#header .anotherbox .SJYX .gamelost{
+	margin-top:30px;
+	margin-left:45px;
+}
+#header .anotherbox .SJYX .gamelost li{
+	width: 97px;
+	height: 36px;
+	float:left;
+	font-size:14px;
+	line-height:36px;
+}
+#header .anotherbox .SJYX .gamelost li a{
+	color:#333;
+}
+#header .anotherbox .SJYX .gamelost li.Hot i{
+	width: 11px;
+	height: 11px;
+	display:block;
+	background:url(../images/WOT/top_ico.png) no-repeat -21px -20px;
+	float:right;
+	margin:14% 20px 0 0;
+}
+#header .anotherbox .SJYX .gamelost li.New i{
+	width: 11px;
+	height: 11px;
+	display:block;
+	background:url(../images/WOT/top_ico.png) no-repeat -43px -20px;
+	float:right;
+	margin:14% -5px 0 0;
+}
+#header .anotherbox .SJYX .gamelost li a:hover{
+	color:#ed6b00;
+}
+
+
+#header .anotherbox .SC{
+	width: 160px;
+	height: 260px;
+	border-right:1px solid #EAEAEA;
+}
+#header .anotherbox .SC h2{
+	width: 100%;
+	height: 40px;
+	background:#f5f5f5;
+	line-height:40px;
+	color:#ed6b00;
+	font-size:14px;
+	text-align:center;
+}
+#header .anotherbox .SC .gamelost{
+	width: 114px;
+	height: 144px;
+	margin-left:45px;
+	margin-top:30px;
+}
+#header .anotherbox .SC .gamelost li{
+	width: 97px;
+	height: 36px;
+	float:left;
+	font-size:14px;
+	line-height:36px;
+}
+#header .anotherbox .SC .gamelost li a{
+	color:#333;
+}
+#header .anotherbox .SC .gamelost li a:hover{
+	color:#ed6b00;
+}
+#header .anotherbox .YXFZ{
+	width: 157px;
+	height: 260px;
+}
+#header .anotherbox .YXFZ h2{
+	width: 100%;
+	height: 40px;
+	background:#f5f5f5;
+	line-height:40px;
+	color:#ed6b00;
+	font-size:14px;
+	text-align:center;
+}
+#header .anotherbox .YXFZ .gamelost{
+	width: 114px;
+	height: 180px;
+	margin-top:30px;
+	margin-left:43px;
+}
+#header .anotherbox .YXFZ .gamelost li{
+	width: 97px;
+	height: 36px;
+	float:left;
+	font-size:14px;
+	line-height:36px;
+}
+#header .anotherbox .YXFZ .gamelost li a{
+	color:#333;
+}
+#header .anotherbox .YXFZ .gamelost li a:hover{
+	color:#ed6b00;
+}
+#nav{
+	width: 100%;
+	height: 110px;
+	position:relative;
+}
+#nav .navbg{
+	width: 100%;
+	height: 55px;
+	position:absolute;
+	left:0;
+	z-index:1;
+}
+#nav .tnav{
+	width: 100%;
+	height: 55px;	
+	position:relative;
+	overflow:hidden;
+	z-index:1;
+}
+#nav .bg{
+	width: 100%;
+	height: 110px;
+	background:url(../images/WOT/nav.png) no-repeat center;
+	position:absolute;
+	left:0;
+	top:0;
+	z-index:1;
+}
+#nav .tnav li{
+	width: 133px;
+	height: 285px;
+	float:left;
+	text-align:center;
+	line-height:55px;
+	color:#fefdf9;
+	font-size:18px;
+	background:url(../images/WOT/list.png) no-repeat 0 0;
+	position:relative;
+	z-index:1;
+}
+#nav .tnav li a{
+	display:block;
+	line-height:40px;
+	font-size:14px;
+	color:#fff;
+}
+#nav .tnav li.zl a{
+	line-height:35px;
+}
+#nav .tnav li a:hover{
+	color:#DE5A02;
+	text-decoration:underline;
+}
+#nav .tnav li.jli{
+	width: 391px;
+	height: 285px;
+}
+#nav .tnav li.shou{
+	width: 133px;
+	height: 55px;
+	background:rgba(0,0,0,0);
+}
+#nav .tnav li.shou:hover{
+	background:url(../images/WOT/sprite.png) no-repeat;
+	color: #ff9e04;
+}
+.background{
+	background:rgba(0,0,0,0.5);
+}
+
+#nav .tnav li span{
+	display:block;
+	width: 133px;
+	height: 55px;
+}
+#nav .tnav li:hover span{
+	background:url(../images/WOT/sprite.png) no-repeat;
+	color: #ff9e04;
+}
+/*header end*/
+/*banner*/
+#banner{
+	width: 100%;
+	height: 3070px;
+	position:relative;
+	top:0px;
+	z-index:0;
+}
+#banner .BBG{
+	width: 100%;
+	height: 100%;
+	position:relative;
+	top:0;
+	left:0;
+}
+#banner .BBG li{
+	width: 100%;
+	height: 100%;
+	position:absolute;
+	top:0;
+	left:0;
+	z-index:0;
+}
+#banner .BBG li a{
+	width: 100%;
+	height: 68%;
+	display:block;
+	position:absolute;
+	top:0;
+	left:0;
+	z-index:1;
+}
+#banner .Btn{
+	position:absolute;
+	right:50%;
+	top:470px;
+	margin-right:-594px;
+	cursor:pointer;
+	z-index:2;
+}
+#banner .Btn p{
+	display:block;
+	float:left;
+	background:#27272b;
+	border-radius:50%;
+	height:16px;
+	width: 16px;
+	margin-left:8px;
+}
+#banner .Btn p.curr{
+	background:#d25400;
+}
+#banner .BBG li.L1{
+	background:url(../images/WOT/18562.jpg) no-repeat;
+	background-position:center 0;
+}
+#banner .BBG li.L2{
+	background:url(../images/WOT/18645.jpg) no-repeat;
+	background-position:center 0;
+}#banner .BBG li.L3{
+	background:url(../images/WOT/19058.jpg) no-repeat;
+	background-position:center 0;
+}
+#banner .BBG li.L4{
+	background:url(../images/WOT/19405.jpg) no-repeat;
+	background-position:center 0;
+}
+#banner .BBG li.L5{
+	background:url(../images/WOT/19517.jpg) no-repeat;
+	background-position:center 0;
+}
+#banner .BBG li.L6{
+	background:url(../images/WOT/19538.jpg) no-repeat;
+	background-position:center 0;
+}
+#banner .BBG li.L7{
+	background:url(../images/WOT/19592.jpg) no-repeat;
+	background-position:center 0;
+}
+#banner .BBG li.L8{
+	background:url(../images/WOT/19596.jpg) no-repeat;
+	background-position:center 0;
+}
+/*banner end*/
+/*content*/
+#content{
+	width: 100%;
+	height: 2700px;
+	position:absolute;
+	top:0;
+	margin:590px auto 0;
+	background:url(../images/WOT/wrap.jpg) no-repeat center bottom;
+}
+#content .content1{
+	width: 100%;
+	height: 118px;
+	margin-bottom:18px;
+}
+#content .content1 .xiazai{
+	width: 726px;
+	height: 118px;
+}
+#content .content1 .xiazai a{
+	float:left;
+}
+#content .content1 .xiazai .a1{
+	width: 222px;
+	height: 118px;
+	display:block;
+	background:url(../images/WOT/sprite.png) no-repeat 0 -55px;
+	transition:0.3s;
+}
+#content .content1 .xiazai .a1:hover{
+	background:url(../images/WOt/sprite.png) no-repeat 0 -173px;
+	transition:0.3s;
+}
+#content .content1 .xiazai .a2{
+	margin-left:3px;
+	display:block;
+	width: 163px;
+	height: 57px;
+	background:url(../images/WOT/sprite.png) no-repeat -222px 0;
+	transition:0.3s;
+}
+#content .content1 .xiazai .a2:hover{
+	background:url(../images/WOT/sprite.png) no-repeat -222px -57px;
+	transition:0.3s;
+}
+#content .content1 .xiazai .a3{
+	margin-left:3px;
+	display:block;
+	width: 163px;
+	height: 57px;
+	background:url(../images/WOT/sprite.png) no-repeat -385px 0;
+	transition:0.3s;
+}
+#content .content1 .xiazai .a3:hover{
+	background:url(../images/WOT/sprite.png) no-repeat -385px -57px;
+	transition:0.3s;
+}
+#content .content1 .xiazai .a4{
+	margin-left:3px;
+	display:block;
+	width: 163px;
+	height: 57px;
+	background:url(../images/WOT/sprite.png) no-repeat -548px 0;
+	transition:0.3s;
+}
+#content .content1 .xiazai .a4:hover{
+	background:url(../images/WOT/sprite.png) no-repeat -548px -57px;
+	transition:0.3s;
+}
+#content .content1 .xiazai .a5{
+	margin-top:3px;
+	margin-left:3px;
+	display:block;
+	width: 163px;
+	height: 57px;
+	background:url(../images/WOT/sprite.png) no-repeat -222px -114px;
+	transition:0.3s;
+}
+#content .content1 .xiazai .a5:hover{
+	background:url(../images/WOT/sprite.png) no-repeat -222px -171px;
+	transition:0.3s;
+}
+#content .content1 .xiazai .a6{
+	margin-top:3px;
+	margin-left:3px;
+	display:block;
+	width: 163px;
+	height: 57px;
+	background:url(../images/WOT/sprite.png) no-repeat -385px -114px;
+	transition:0.3s;
+}
+#content .content1 .xiazai .a6:hover{
+	background:url(../images/WOT/sprite.png) no-repeat -385px -171px;
+	transition:0.3s;
+}
+#content .content1 .xiazai .a7{
+	margin-top:3px;
+	margin-left:3px;
+	display:block;
+	width: 163px;
+	height: 57px;
+	background:url(../images/WOT/sprite.png) no-repeat -548px -114px;
+	transition:0.3s;
+}
+#content .content1 .xiazai .a7:hover{
+	background:url(../images/WOT/sprite.png) no-repeat -548px -171px;
+	transition:0.3s;
+}
+#content .content1 .denglu{
+	width: 451px;
+	height: 116px;
+	background:#27272b;
+	border:1px solid #393731;
+}
+#content .content1 .denglu .user{
+	padding:8px;
+	position:relative;
+}
+#content .content1 .denglu .user img{
+	display:block;
+	position:absolute;
+	height:95px;
+	width: 95px;
+	border:1px solid #979799;
+}
+#content .content1 .denglu .user h4{
+	width: 160px;
+	height: 32px;
+	line-height:32px;
+	font-size:20px;
+	color:#ff9000;
+	position:relative;
+	padding:4px 100px 4px 116px;
+	font-weight:normal;
+}
+#content .content1 .denglu .user h4 a{
+	width: 88px;
+	height: 27px;
+	background:url(../images/WOT/sprite.png) no-repeat -711px 0;
+	display:block;
+	position:absolute;
+	right:0;
+	top:50%;
+	margin-top:-13px;
+}
+#content .content1 .denglu .user p{
+	color:#fff;
+	font-size:14px;
+	margin-top:14px;
+	padding-left:116px;
+
+}
+
+#content .content2{
+	width: 100%;
+	height: 1050px;
+/*	background:#0f0;*/
+	margin-bottom:18px;
+}
+#content .content2 .left{
+	width: 726px;
+	height: 100%;
+}
+#content .content2 .right{
+	width: 451px;
+	height: 100%;
+}
+#content .content2 .left h4{
+	padding-left:48px;
+	padding-bottom:8px;
+	font-weight:normal;
+	position:relative;
+}
+#content .content2 .left h4 i{
+	width: 38px;
+	height: 38px;
+	display:block;
+	background:url(../images/WOT/sprite.png) no-repeat -711px -68px;
+	position:absolute;
+	left:0;
+}
+#content .content2 .left h4 span{
+	color:#fff7e3;
+	font-size:20px;
+	line-height:38px;
+	font-weight:normal;
+}
+#content .content2 .left h4 a{
+	width: 38px;
+	height: 38px;
+	display:block;
+	background:url(../images/WOT/sprite.png) no-repeat -749px -30px;
+	position:absolute;
+	top:0;
+	right:0;
+}
+#content .content2 .left .newlist{
+	width: 708px;
+	height: 468px;
+	padding-bottom:10px;
+	padding:8px;
+	border:1px solid #393731;
+}
+#content .content2 .left .newlist .tab1{
+	width: 710px;
+	height: 42px;
+	margin-bottom:12px;
+}
+#content .content2 .left .newlist .tab1 a{
+	background:#33333a;
+	display:block;
+	color:#fff7e3;
+	font-size:18px;	
+	float:left;
+	width: 140px;
+	margin:0 1px;
+	height:42px;
+	line-height:42px;
+	text-align:center;
+	font-family:"微软雅黑";
+}
+#content .content2 .left .newlist .tab1 a:hover{
+	background:#d25400;
+	color:#fff;
+}
+#content .content2 .left .newlist .tab1 a.curror{
+	background:#d25400;
+	color:#fff;
+}
+#content .content2 .left .newlist .tablist{
+	width: 708px;
+	height: 414px;
+	position:relative;
+}
+#new{
+	width: 100%;
+	height: 100%;
+	font-family:'微软雅黑';
+	position:absolute;
+}
+#new .s{
+	width: 678px;
+	height: 138px;
+	display:block;
+	border: 1px solid #393731;
+	padding:14px;
+	background:#33333a;
+}
+#new .s img{
+	display:block;
+	height: 138px;
+	margin-right:14px;
+	width: 191px;
+	float:left;
+}
+#new .s span{
+	color:#f25422;
+	display:block;
+	font-size:18px;
+	margin-bottom:6px;
+	margin-top:6px;
+}
+#new .s i{
+	display:block;
+	color:#999999;
+	font-size:14px;
+	line-height:1.5;
+	font-style:normal;
+}
+#new .s b{
+	display:block;
+	color:#999999;
+	font-size:14px;
+	line-height:1.5;
+	font-weight: normal;
+}
+#new .s:hover{
+	border-left:2px solid #f49411;
+	padding-left:13px;
+}
+#new .list{
+	width: 100%;
+	height: 235px;
+	padding-top:11px;
+}
+#new .list li{
+	width: 100%;
+	height: 43px;
+	margin-bottom:4px;
+}
+#new .list li a{
+	width: 298px;
+	height: 43px;
+	float:left;
+	display:block;
+	line-height:43px;
+	padding-right:56px;
+	position:relative;
+	color:#999999;
+	font-size:14px;
+}
+#new .list li a b{
+	margin-left:14px;
+	margin-right:8px;
+	font-weight:normal;
+}
+#new .list li a i{
+	font-style: normal;
+	position:absolute;
+	right:12px;
+	top:0;
+}
+#new .list li a:hover{
+	border-left:2px solid #f49411;
+	color:#d25400;
+	width: 296px;
+}
+
+#news{
+	width: 100%;
+	height: 100%;
+	font-family:'微软雅黑';
+}
+#news .s{
+	width: 678px;
+	height: 138px;
+	display:block;
+	border: 1px solid #393731;
+	padding:14px;
+	background:#33333a;
+}
+#news .s img{
+	display:block;
+	height: 138px;
+	margin-right:14px;
+	width: 191px;
+	float:left;
+}
+#news .s span{
+	color:#f25422;
+	display:block;
+	font-size:18px;
+	margin-bottom:6px;
+	margin-top:6px;
+}
+#news .s i{
+	display:block;
+	color:#999999;
+	font-size:14px;
+	line-height:1.5;
+	font-style:normal;
+}
+#news .s b{
+	display:block;
+	color:#999999;
+	font-size:14px;
+	line-height:1.5;
+	font-weight: normal;
+}
+#news .s:hover{
+	border-left:2px solid #f49411;
+	padding-left:13px;
+}
+#news .list{
+	width: 100%;
+	height: 235px;
+	padding-top:11px;
+}
+#news .list li{
+	width: 100%;
+	height: 43px;
+	margin-bottom:4px;
+}
+#news .list li a{
+	width: 298px;
+	height: 43px;
+	float:left;
+	display:block;
+	line-height:43px;
+	padding-right:56px;
+	position:relative;
+	color:#999999;
+	font-size:14px;
+}
+#news .list li a b{
+	margin-left:14px;
+	margin-right:8px;
+	font-weight:normal;
+}
+#news .list li a i{
+	font-style: normal;
+	position:absolute;
+	right:12px;
+	top:0;
+}
+#news .list li a:hover{
+	border-left:2px solid #f49411;
+	color:#d25400;
+	width: 296px;
+}
+#gonggao{
+	width: 100%;
+	height: 100%;
+	font-family:'微软雅黑';
+}
+#gonggao .s{
+	width: 678px;
+	height: 138px;
+	display:block;
+	border: 1px solid #393731;
+	padding:14px;
+	background:#33333a;
+}
+#gonggao .s img{
+	display:block;
+	height: 138px;
+	margin-right:14px;
+	width: 191px;
+	float:left;
+}
+#gonggao .s span{
+	color:#f25422;
+	display:block;
+	font-size:18px;
+	margin-bottom:6px;
+	margin-top:6px;
+}
+#gonggao .s i{
+	display:block;
+	color:#999999;
+	font-size:14px;
+	line-height:1.5;
+	font-style:normal;
+}
+#gonggao .s b{
+	display:block;
+	color:#999999;
+	font-size:14px;
+	line-height:1.5;
+	font-weight: normal;
+}
+#gonggao .s:hover{
+	border-left:2px solid #f49411;
+	padding-left:13px;
+}
+#gonggao .list{
+	width: 100%;
+	height: 235px;
+	padding-top:11px;
+}
+#gonggao .list li{
+	width: 100%;
+	height: 43px;
+	margin-bottom:4px;
+}
+#gonggao .list li a{
+	width: 298px;
+	height: 43px;
+	float:left;
+	display:block;
+	line-height:43px;
+	padding-right:56px;
+	position:relative;
+	color:#999999;
+	font-size:14px;
+}
+#gonggao .list li a b{
+	margin-left:14px;
+	margin-right:8px;
+	font-weight:normal;
+}
+#gonggao .list li a i{
+	font-style: normal;
+	position:absolute;
+	right:12px;
+	top:0;
+}
+#gonggao .list li a:hover{
+	border-left:2px solid #f49411;
+	color:#d25400;
+	width: 296px;
+}
+#huodong{
+	width: 100%;
+	height: 100%;
+	font-family:'微软雅黑';
+}
+#huodong .s{
+	width: 678px;
+	height: 138px;
+	display:block;
+	border: 1px solid #393731;
+	padding:14px;
+	background:#33333a;
+}
+#huodong .s img{
+	display:block;
+	height: 138px;
+	margin-right:14px;
+	width: 191px;
+	float:left;
+}
+#huodong .s span{
+	color:#f25422;
+	display:block;
+	font-size:18px;
+	margin-bottom:6px;
+	margin-top:6px;
+}
+#huodong .s i{
+	display:block;
+	color:#999999;
+	font-size:14px;
+	line-height:1.5;
+	font-style:normal;
+}
+#huodong .s b{
+	display:block;
+	color:#999999;
+	font-size:14px;
+	line-height:1.5;
+	font-weight: normal;
+}
+#huodong .s:hover{
+	border-left:2px solid #f49411;
+	padding-left:13px;
+}
+#huodong .list{
+	width: 100%;
+	height: 235px;
+	padding-top:11px;
+}
+#huodong .list li{
+	width: 100%;
+	height: 43px;
+	margin-bottom:4px;
+}
+#huodong .list li a{
+	width: 298px;
+	height: 43px;
+	float:left;
+	display:block;
+	line-height:43px;
+	padding-right:56px;
+	position:relative;
+	color:#999999;
+	font-size:14px;
+}
+#huodong .list li a b{
+	margin-left:14px;
+	margin-right:8px;
+	font-weight:normal;
+}
+#huodong .list li a i{
+	font-style: normal;
+	position:absolute;
+	right:12px;
+	top:0;
+}
+#huodong .list li a:hover{
+	border-left:2px solid #f49411;
+	color:#d25400;
+	width: 296px;
+}
+
+#saishi{
+	width: 100%;
+	height: 100%;
+	font-family:'微软雅黑';
+}
+#saishi .s{
+	width: 678px;
+	height: 138px;
+	display:block;
+	border: 1px solid #393731;
+	padding:14px;
+	background:#33333a;
+}
+#saishi .s img{
+	display:block;
+	height: 138px;
+	margin-right:14px;
+	width: 191px;
+	float:left;
+}
+#saishi .s span{
+	color:#f25422;
+	display:block;
+	font-size:18px;
+	margin-bottom:6px;
+	margin-top:6px;
+}
+#saishi .s i{
+	display:block;
+	color:#999999;
+	font-size:14px;
+	line-height:1.5;
+	font-style:normal;
+}
+#saishi .s b{
+	display:block;
+	color:#999999;
+	font-size:14px;
+	line-height:1.5;
+	font-weight: normal;
+}
+#saishi .s:hover{
+	border-left:2px solid #f49411;
+	padding-left:13px;
+}
+#saishi .list{
+	width: 100%;
+	height: 235px;
+	padding-top:11px;
+}
+#saishi .list li{
+	width: 100%;
+	height: 43px;
+	margin-bottom:4px;
+}
+#saishi .list li a{
+	width: 298px;
+	height: 43px;
+	float:left;
+	display:block;
+	line-height:43px;
+	padding-right:56px;
+	position:relative;
+	color:#999999;
+	font-size:14px;
+}
+#saishi .list li a b{
+	margin-left:14px;
+	margin-right:8px;
+	font-weight:normal;
+}
+#saishi .list li a i{
+	font-style: normal;
+	position:absolute;
+	right:12px;
+	top:0;
+}
+#saishi .list li a:hover{
+	border-left:2px solid #f49411;
+	color:#d25400;
+	width: 296px;
+}
+#content .content2 .newlistN{
+	width: 708px;
+	height: 491px;
+	padding:8px;
+	border:1px solid #393731;
+	margin-top:10px;
+}
+#content .content2 .newlistN .tab{
+	width: 710px;
+	height: 30px;
+	margin:0 -1px;
+	position:relative;
+}
+#content .content2 .newlistN .tab .more{
+	position:absolute;
+	right:0;
+	width: 38px;
+	height: 38px;
+	display:block;
+	background:url(../images/WOT/sprite.png) no-repeat -749px -30px;
+	top:-3px;
+}
+#content .content2 .newlistN .tab a{
+	display:block;
+	width: 160px;
+	height: 30px;
+	background:#33333a;
+	line-height:30px;
+	font-size:18px;
+	color:#fff7e3;
+	text-align:center;
+	float:left;
+	margin:0 1px;
+	font-family:"微软雅黑";
+}
+#content .content2 .newlistN .tab a:hover{
+	color:#f25422;
+}
+#content .content2 .newlistN .tab a.cour{
+	border:1px solid #a24027;
+	width: 158px;
+	height: 28px;
+	line-height:28px;
+}
+#content .content2 .newlistN .tablist{
+	width: 708px;
+	height: 464px;
+	margin-top:5px;
+}
+#content .content2 .newlistN .tablist .list2{
+	width: 100%;
+	height: 100%;
+}
+#content .content2 .newlistN .tablist .list2 li{
+	margin-bottom:3px;
+	width: 708px;
+	height: 113px;
+}
+#content .content2 .newlistN .tablist .list2 li a{
+	width: 692px;
+	height: 101px;
+	padding:6px 6px 6px 10px;
+	display:block;
+}
+#content .content2 .newlistN .tablist .list2 li a:hover{
+	border-left: 2px solid #f49411;
+	padding-left: 8px;
+}
+#content .content2 .newlistN .tablist .list2 li a img{
+	width: 180px;
+	height: 101px;
+	float:left;
+	margin-right:16px;
+}
+#content .content2 .newlistN .tablist .list2 li a b{
+	color:#fff;
+	display:block;
+	font-size:18px;
+	font-weight:normal;
+	margin-bottom:4px;
+	margin-top:6px;
+	font-family:"微软雅黑";
+}
+#content .content2 .newlistN .tablist .list2 li a span{
+	color:#999999;
+	display:block;
+	font-size:14px;
+	line-height:1.5;
+}
+#hot{
+	width: 100%;
+	height: 623px;
+}
+#hot h4{
+	width: 100%;
+	padding-bottom:8px;
+	padding-left:48px;
+	position:relative;
+}
+#hot h4 b{
+	width: 38px;
+	height: 38px;
+	display:block;
+	background:url(../images/WOT/sprite.png) no-repeat -711px -106px;
+	position:absolute;
+	top:0;
+	left:0;
+}
+#hot h4 span{
+	color:#fff7e3;
+	font-size:20px;
+	line-height:38px;
+}
+#hot .Img{
+	width: 451px;
+	height: 160px;
+	margin-bottom:12px;
+}
+#hot .Img img{
+	display:block;
+}
+#hot .hotlist{
+	width: 451px;
+	height: 384px;
+	overflow:hidden;
+}
+#hot .hotlist ul{
+	width: 100%;
+	height: 92px;
+}
+#hot .hotlist li{
+	width: 100%;
+	height: 92px;
+	margin-bottom:4px;
+	position:relative;
+	background:#fff;
+}
+#hot .hotlist li span{
+	background:#d25400;
+	border-radius:23px;
+	color:#fefefe;
+	font-size:24px;
+	height:46px;
+	left:50%;
+	top:50%;
+	line-height:46px;
+	margin-left:-130px;
+	margin-top:-23px;
+	text-align:center;
+	width: 260px;
+	position:absolute;
+	display:none;
+	z-index:3;
+	font-family:"微软雅黑";
+}
+#hot .hotlist li b{
+	background:#1a1919;
+	opacity:0.7;
+	position:absolute;
+	width: 100%;
+	height: 100%;
+	left:0;
+	top:0;
+	display:none;
+	z-index:2;
+}
+#hot .hotlist li:hover b{
+	display:block;
+}
+#hot .hotlist li:hover span{
+	display:block;
+}
+#hot .btn{
+	width: 451px;
+	height: 22px;
+	background:url(../images/WOT/sprite.png) no-repeat -222px -228px;
+	cursor:pointer;
+}
+#hot .btn:hover{
+	background:url(../images/WOT/sprite.png) no-repeat -222px -250px;
+}
+#tankLive{
+	width: 451px;
+	height: 408px;
+	margin-top:18px;
+}
+#tankLive h4{
+	font-weight:normal;
+	padding-left:48px;
+	padding-bottom:8px;
+	position:relative;
+}
+#tankLive h4 b{
+	display:block;
+	height: 38px;
+	width: 38px;
+	position:absolute;
+	top:0;
+	left:0;
+	background:url(../images/WOT/sprite.png) no-repeat -711px -144px;
+}
+#tankLive h4 span{
+	color:#fff7e3;
+	font-size:20px;
+	line-height:38px;
+	font-family:"微软雅黑";
+}
+#tankLive .con{
+	height: 363px;
+}
+#tankLive .con .big{
+	width: 449px;
+	height: 280px;
+	margin-bottom:9px;
+	border:1px solid #45392b;
+	position:relative;
+}
+#tankLive .con .big a{
+	width: 100%;
+	height: 100%;
+	display:block;
+}
+#tankLive .con .big img{
+	position:relative;
+	display:block;
+}
+#tankLive .con .big .bg{
+	width: 449px;
+	height: 280px;
+	z-index:2;
+	position:absolute;
+	top:0;
+	left:0;
+	background:rgba(0,0,0,0.5);
+	display:none;
+}
+#tankLive .con .big:hover .bg{
+	display:block;
+}
+#tankLive .con .big .play{
+	width: 65px;
+	height: 65px;
+	margin-left:-36px;
+	margin-top:-44px;
+	background:url(../images/WOT/sprite.png) no-repeat 0 -291px;
+	position:absolute;
+	top:50%;
+	left:50%;
+	z-index:3;
+}
+#tankLive .con .big span{
+	width: 449px;
+	height: 44px;
+	line-height:44px;
+	background:rgba(0,0,0,0.5);
+	position:absolute;
+	bottom:0;
+	left:0;
+	text-align:center;
+	color:#bababa;
+	font-size:14px;
+	z-index:2;
+	font-family:"微软雅黑";
+}
+
+#tankLive .con .small{
+	width: 105px;
+	height: 68px;
+	margin-bottom:9px;
+	border:1px solid #45392b;
+	position:relative;
+	margin-right:5px;
+	float:left;
+}
+#tankLive .con .small a{
+	width: 100%;
+	height: 100%;
+	display:block;
+}
+#tankLive .con .small img{
+	position:relative;
+	display:block;
+}
+#tankLive .con .small .bg{
+	width: 105px;
+	height: 68px;
+	z-index:2;
+	position:absolute;
+	top:0;
+	left:0;
+	background:rgba(0,0,0,0.5);
+	display:none;
+}
+#tankLive .con .small:hover .bg{
+	display:block;
+}
+#tankLive .con .small .play{
+	width: 33px;
+	height: 33px;
+	margin-left:-12px;
+	margin-top:-17px;
+	background:url(../images/WOT/sprite.png) no-repeat -65px -291px;
+	position:absolute;
+	top:50%;
+	left:50%;
+	z-index:3;
+}
+#tankLive .con .small span{
+	width: 107px;
+	height: 17px;
+	line-height:17px;
+	background:rgba(0,0,0,0.5);
+	position:absolute;
+	bottom:0;
+	left:0;
+	text-align:center;
+	color:#bababa;
+	font-size:14px;
+	z-index:2;
+	font-family:"微软雅黑";
+}
+#content3{
+	width: 100%;
+	height: 454px;
+	margin-bottom:18px;
+}
+#content3 .baike{
+	width: 726px;
+	height: 100%;
+	position:relative;
+}
+#content3 .baike h4{
+	width: 656px;
+	padding-bottom:8px;
+	padding-left:48px;
+	position:relative;
+	font-weight:normal;
+	font-family:"微软雅黑";
+}
+#content3 .baike h4 b{
+	width: 38px;
+	height: 38px;
+	display:block;
+	background:url(../images/WOT/sprite.png) no-repeat -711px -220px;
+	position:absolute;
+	left:0;
+	top:0;
+}
+#content3 .baike h4 span{
+	color:#fff7e3;
+	font-size:20px;
+	line-height:38px;
+}
+#content3 .baike h4 a{
+	display:block;
+	width: 38px;
+	height: 38px;
+	background:url(../images/WOT/sprite.png) no-repeat -749px -30px;
+	position:absolute;
+	right:0;
+	top:0;
+}
+#content3 .baike .tab{
+	width: 723px;
+	height: 407px;
+	background:url(../images/WOT/wikiBg.jpg) no-repeat center 0;
+	border:1px solid #393731;
+	position:relative;
+}
+#content3 .baike .tab .Tab{
+	width: 85px;
+	height: 270px;
+	position:absolute;
+	left:30px;
+	top:50px;
+}
+#content3 .baike .tab .Tab a{
+	width: 78px;
+	height: 26px;
+	display:block;
+	font-size:16px;
+	line-height:26px;
+	margin:2px 0;
+	text-align:center;
+	position:relative;
+	font-family:"微软雅黑";
+	color:#999999;
+}
+#content3 .baike .tab .Tab a:hover{
+	width: 78px;
+	height: 26px;
+	display:block;
+	font-size:16px;
+	line-height:26px;
+	margin:2px 0;
+	text-align:center;
+	position:relative;
+	font-family:"微软雅黑";
+	background:#d25400;
+	color:#fff;
+}
+#content3 .baike .tab .Tab a:hover i{
+	width: 10px;
+	height: 10px;
+	background:#d25400;
+	display:block;
+	transform:rotate(45deg);
+	position:absolute;
+	right:-5px;
+	top:32%;
+}
+#content3 .baike .tab .Tab .ah{
+	width: 78px;
+	height: 26px;
+	display:block;
+	font-size:16px;
+	line-height:26px;
+	margin:2px 0;
+	text-align:center;
+	position:relative;
+	font-family:"微软雅黑";
+	background:#d25400;
+	color:#fff;
+}
+#content3 .baike .tab .Tab .ah i{
+	width: 10px;
+	height: 10px;
+	background:#d25400;
+	display:block;
+	transform:rotate(45deg);
+	position:absolute;
+	right:-5px;
+	top:32%;
+}
+#content3 .baike .other{
+	position:absolute;
+	bottom:36px;
+	font-size:16px;
+	left:30px;
+	text-align:center;
+	width: 78px;
+	height:18px;
+	font-family:"微软雅黑";
+	color:#d25400;
+}
+#content3 .baike .other a{
+	color:#d25400;
+}
+#content3 .baike .other a:hover{
+	text-decoration:underline;
+}
+#content3 .baike .tablist{
+	width: 575px;
+	height: 394px;
+	position:absolute;
+	left:138px;
+	top:12px;
+	font-family:"微软雅黑";
+}
+#content3 .baike .tablist .tabL{
+	width: 579px;
+	height: 30px;
+	margin:0 -2px;
+}
+#content3 .baike .tablist .tabL a{
+	width: 187px;
+	height: 28px;
+	display:block;
+	float:left;
+	text-align:center;
+	line-height:28px;
+	font-size:14px;
+	margin:0 2px;
+	position:relative;
+	border: 1px solid #393731;
+	background:url(../images/WOT/lBg.png) repeat rgba(0,0,0,0);
+	color: #fff7e3;
+	z-index:3;
+}
+#content3 .baike .tablist .tabL .ah-1{
+	width: 187px;
+	height: 28px;
+	display:block;
+	float:left;
+	text-align:center;
+	line-height:28px;
+	font-size:14px;
+	margin:0 2px;
+	position:relative;
+	border: 1px solid #f25422;
+	background:url(../images/WOT/lBg.png) repeat rgba(0,0,0,0);
+	color: #f25422;
+}
+#content3 .baike .tablist .tabL .ah-1 i{
+	border-color: #f25422 transparent transparent;
+    border-style: solid;
+    border-width: 7px 6px 0;
+    bottom: -8px;
+    content: "";
+    display: block;
+    height: 0;
+    left: 50%;
+    margin-left: -6px;
+    overflow: hidden;
+    position: absolute;
+    width: 0;
+}
+#content3 .baike .tablist .tabL a:hover{
+	width: 187px;
+	height: 28px;
+	display:block;
+	float:left;
+	text-align:center;
+	line-height:28px;
+	font-size:14px;
+	margin:0 2px;
+	position:relative;
+	border: 1px solid #f25422;
+	background:url(../images/WOT/lBg.png) repeat rgba(0,0,0,0);
+	color: #f25422;
+}
+#content3 .baike .tablist .tabL a:hover i{
+	border-color: #f25422 transparent transparent;
+    border-style: solid;
+    border-width: 7px 6px 0;
+    bottom: -8px;
+    content: "";
+    display: block;
+    height: 0;
+    left: 50%;
+    margin-left: -6px;
+    overflow: hidden;
+    position: absolute;
+    width: 0;
+}
+#content3 .baike .tablist .tankname{
+	width: 565px;
+	height: 27px;
+	padding-left:10px;
+}
+#content3 .baike .tablist .tankname a{
+	float:left;
+	font-size:14px;
+	height:27px;
+	line-height:29px;
+	margin-right:20px;
+	padding-left:20px;
+	position:relative;
+	color:#faf8f3;
+}
+#content3 .baike .tablist .tankname a img{
+	display:block;
+	position:absolute;
+	left:0;
+	top:4px;
+}
+#content3 .baike .tablist .tankname .ah-2{
+	color:#f25422;
+}
+#content3 .baike .tablist .tankname a:hover{
+	color:#f25422;
+}
+#pop{
+	width: 100%; 
+	height: 100%; 
+	display:none;
+	z-index:999;
+}
+#pop .popBg{
+	width: 100%; 
+	height: 100%; 
+	background:rgba(0,0,0,.7); 
+	position: fixed; 
+	left:0; 
+	top:0; 
+	z-index:999;
+}
+#pop .popCon{
+	width: 372px; 
+	height: 296px; 
+	background:url(../images/WOT/logA.jpg) repeat;
+	position:fixed; 
+	top:-450px; 
+	left:30%;
+	z-index:1000;
+}
+#pop .popCon a.x{
+	width: 22px;
+	height: 22px;
+	background:url(../images/WOT/sprite.png) no-repeat 0 -436px; 
+	display:block;
+	position:absolute;
+	right:8px;
+	top:8px;
+}
+#pop .popCon .con{
+	width: 100%;
+	padding-top:42px;
+	height: 330px;
+}
+#pop .popCon .con .post{
+	width: 276px;
+	height: 148px;
+	margin:0 auto;
+}
+#pop .popCon .con .post li{
+	width: 100%;
+	height: 28px;
+	margin-bottom:12px;
+}
+#pop .popCon .con .post li span{
+	height: 28px;
+	width: 64px;
+	color:#ebeae9;
+	float:left;
+	display:block;
+	font-size:16px;
+	line-height:28px;
+}
+#pop .popCon .con .post li input{
+	display:block;
+	float:left;
+	font-size:16px;
+	background:#e5e5e5;
+	color:#000;
+	border:none;
+	height: 28px;
+	width: 200px;
+	padding: 0 5px;
+	line-height:28px;
+}
+#pop .popCon .con .post li input#yzM{
+	width: 110px;
+	margin-right:10px;
+	background:#e5e5e5;
+	border:none;
+	color:#000;
+	height: 28px;
+	line-height:28px;
+	padding:0 5px;
+	display:block;
+	float:left;
+	font-size:16px;
+}
+#pop .popCon .con .post li img{
+	width: 80px;
+	height: 28px;
+	float:left;
+	display:block;
+	background:#fff;
+}
+#pop .popCon .con .in{
+	width: 100%;
+	height: 49px;
+	text-align:center;
+	background:#d25400;
+	color:#ebeae9;
+	line-height:49px;
+	font-size:20px;
+	cursor:pointer;
+}
+#pop .popCon .con .in:hover{
+	text-decoration:underline;
+}
+#pop .popCon .con .other{
+	width: 100%;
+	height: 52px;
+	color:#ebeae9;
+	line-height:46px;
+	position:absolute;
+	bottom:0;
+	font-size:14px;
+	text-align:center;
+}
+#pop .popCon .con .other a{
+	color:#ebeae9;
+}
+#pop .popCon .con .other a:hover{
+	text-decoration:underline;
+}
+/*content end*/
+.wiki {
+    background: rgba(0, 0, 0, 0) url("../images/WOT/wikiBg.jpg") no-repeat scroll center 0;
+    border: 1px solid #393731;
+    height: 407px;
+    position: relative;
+    width: 723px;
+}
+.tankSina, .tankCode {
+    border: 1px solid #393731;
+}
+.tankSina {
+    background: #232125 none repeat scroll 0 0;
+    height: 279px;
+    margin-bottom: 5px;
+    overflow: hidden;
+}
+.tankCode {
+    background: rgba(0, 0, 0, 0) url("../images/WOT/codeBg.jpg") no-repeat scroll 0 0;
+    height: 121px;
+    overflow: hidden;
+    position: relative;
+    width: 449px;
+}
+.tankCode img {
+    display: inline;
+    float: left;
+    height: 95px;
+    margin-left: 13px;
+    margin-top: 13px;
+    width: 86px;
+}
+.tankCode p {
+    color: #fff7e3;
+    font-size: 16px;
+    left: 217px;
+    position: absolute;
+    top: 10px;
+}
+.tankCode a {
+    bottom: 4px;
+    display: block;
+    font-size: 0;
+    height: 36px;
+    overflow: hidden;
+    position: absolute;
+    text-indent: -999999px;
+    width: 110px;
+}
+.sinaLink {
+    left: 217px;
+}
+.yyLink {
+    left: 328px;
+}
+.oth {
+    bottom: 36px;
+    color: #d25400;
+    font-size: 16px;
+    left: 30px;
+    position: absolute;
+    text-align: center;
+    width: 78px;
+}
+.oth a {
+    color: #d25400;
+}
+.type {
+    left: 30px;
+    position: absolute;
+    top: 50px;
+    width: 85px;
+}
+.type a {
+    color: #999999;
+    display: inline;
+    float: left;
+    font-size: 16px;
+    height: 26px;
+    line-height: 26px;
+    margin: 2px 0;
+    position: relative;
+    text-align: center;
+    width: 78px;
+}
+.type a::after {
+    border-color: transparent transparent transparent #d25400;
+    border-style: solid;
+    border-width: 6px 0 6px 7px;
+    content: "";
+    display: none;
+    height: 0;
+    margin-top: -6px;
+    overflow: hidden;
+    position: absolute;
+    right: -7px;
+    top: 50%;
+    width: 0;
+}
+.type a:hover, .type a.curr {
+    background: #d25400 none repeat scroll 0 0;
+    color: #fff;
+    text-decoration: none;
+}
+.type a:hover::after, .type a.curr::after {
+    display: block;
+}
+.typeContent {
+    left: 138px;
+    position: absolute;
+    top: 12px;
+    width: 575px;
+}
+.tabL {
+    margin: 0 -2px;
+    overflow: visible;
+}
+.tabL a {
+    background: rgba(0, 0, 0, 0) url("../images/WOT/lBg.png") repeat scroll 0 0;
+    border: 1px solid #393731;
+    color: #fff7e3;
+    display: inline;
+    float: left;
+    font-size: 14px;
+    height: 28px;
+    line-height: 28px;
+    margin: 0 2px;
+    position: relative;
+    text-align: center;
+    width: 187px;
+}
+.tabL a::after {
+    border-color: #f25422 transparent transparent;
+    border-style: solid;
+    border-width: 7px 6px 0;
+    bottom: -8px;
+    content: "";
+    display: none;
+    height: 0;
+    left: 50%;
+    margin-left: -6px;
+    overflow: hidden;
+    position: absolute;
+    width: 0;
+}
+.tabL a:hover, .tabL a.curr {
+    border-color: #f25422;
+    color: #f25422;
+    text-decoration: none;
+}
+.tabL a:hover::after, .tabL a.curr::after {
+    display: block;
+}
+.lContent {
+    padding-top: 3px;
+}
+.tabTank {
+    margin: 0;
+    overflow: hidden;
+    padding-left: 10px;
+}
+.tabTank a {
+    color: #faf8f3;
+    display: inline;
+    float: left;
+    font-size: 14px;
+    height: 27px;
+    line-height: 29px;
+    margin-right: 20px;
+    padding-left: 20px;
+    position: relative;
+}
+.tabTank a img {
+    left: 0;
+    position: absolute;
+    top: 4px;
+}
+.tabTank a:hover, .tabTank a.curr {
+    color: #f25422;
+    text-decoration: none;
+}
+.tankInfo {
+    height: 334px;
+    overflow: hidden;
+    position: relative;
+    width: 100%;
+}
+.tankImg {
+    bottom: 30px;
+    position: absolute;
+    right: 10px;
+    z-index: 1;
+}
+.tankName {
+    left: 16px;
+    position: absolute;
+    top: 46px;
+    z-index: 2;
+}
+.tankName h4 {
+    color: #fff;
+    display: inline-block;
+    font-size: 36px;
+    font-weight: normal;
+    padding-right: 12px;
+    position: relative;
+    margin-left:-50px;
+}
+.tankName h4 img {
+    border: 1px solid #583b2a;
+    height: 14px;
+    margin-top: -1px;
+    position: absolute;
+    right: -27px;
+    top: 50%;
+    width: 27px;
+}
+.tankName p {
+    color: #fff;
+    font-size: 14px;
+    margin-top: 4px;
+}
+.tankDe {
+    color: #a2a5ab;
+    font-size: 14px;
+    left: 16px;
+    position: absolute;
+    top: 150px;
+    width: 200px;
+    z-index: 2;
+}
+.tankDe p {
+    max-height: 112px;
+    overflow: hidden;
+    text-align: justify;
+}
+.tankDe a {
+    color: #a2a5ab;
+    display: block;
+    margin-top: 8px;
+    text-align: right;
+}
+.tabBox {
+    background: rgba(0, 0, 0, 0) url("../images/WOT/tabBox.png") repeat scroll center center;
+    border: 1px solid #2a292d;
+    height: 210px;
+    position: relative;
+}
+.tabBox .tab {
+    height: 24px;
+    left: 150px;
+    overflow: hidden;
+    position: absolute;
+    top: -38px;
+}
+.tabBox .tab a {
+    border: 1px solid #bbbbbb;
+    border-radius: 11px;
+    color: #fefefe;
+    display: inline;
+    float: left;
+    font-size: 14px;
+    height: 22px;
+    line-height: 20px;
+    margin-left: 17px;
+    text-align: center;
+    width: 56px;
+}
+.tabBox .tab a:hover, .tabBox .tab a.curr {
+    background: #d25400 none repeat scroll 0 0;
+    border-color: #d25400;
+    color: #fff;
+    text-decoration: none;
+}
+.media .tab {
+    left: 130px;
+}
+.media dl {
+    overflow: hidden;
+    padding: 10px;
+}
+.media dl dd, .media dl dt {
+    display: inline;
+    float: left;
+}
+.media dl dd {
+    height: 190px;
+    overflow: hidden;
+    width: 150px;
+}
+.media dl dd img {
+    height: 62px;
+    margin-bottom: 2px;
+    width: 150px;
+}
+.media dl dt {
+    padding-left: 16px;
+    padding-top: 3px;
+    width: 263px;
+}
+.media dl dt p {
+    color: #999999;
+    font-size: 14px;
+}
+.media dl dt p a {
+    color: #999999;
+    display: block;
+    line-height: 36px;
+    overflow: hidden;
+    position: relative;
+    text-overflow: ellipsis;
+    white-space: pre;
+}
+.media dl dt p a b {
+    font-weight: normal;
+}
+.vap .listContainer a.more {
+    right: -1px;
+    top: -46px;
+}
+#content3 .MT{
+	width: 451px;
+	height: 454px;
+}
+#content3 .MT h4{
+	padding-bottom:8px;
+	padding-left:48px;
+	position:relative;
+	font-weight:normal;
+}
+#content3 .MT h4 b{
+	width: 38px;
+	height: 38px;
+	display:block;
+	background:url(../images/WOT/sprite.png) no-repeat -711px -182px;
+	position:absolute;
+	left:0;
+	top:0;
+}
+#content3 .MT h4 span{
+	color:#fff7e3;
+	font-size:20px;
+	line-height:38px;
+	font-family:"微软雅黑";
+}
+#content3 .MT .tankWB{
+	width: 450px;
+	height: 280px;
+	border:1px solid #393731;
+	background:#232125;
+}
+#content3 .MT .tankWB .title{
+	padding:13px 0 15px;
+}
+#content3 .MT .tankWB .title .logo{
+	margin:2px 0 0 15px;
+	float:left;
+}
+#content3 .MT .tankWB .title .logo a{
+	display:block;
+	width: 50px;
+	height: 50px;
+}
+#content3 .MT .tankWB .title .GZ{
+	margin-left:73px;
+}
+#content3 .MT .tankWB .title .GZ li{
+	height: 17px;
+	margin-left:2px;
+}
+#content3 .MT .tankWB .title .GZ li dt a{
+	color:#d25400;
+	font-size:14px;
+	line-height:16px;
+	float:left;
+}
+#content3 .MT .tankWB .title .GZ li dt span{
+	width: 15px;
+	height: 16px;
+	background:url(../images/WOT/icon_user.png) no-repeat 0 -60px;
+	display:block;
+	float:left;
+}
+#content3 .MT .tankWB .title .GZ li dd{
+	color:#666666;
+	margin-left:5px;
+	float:left;
+	display:block;
+}
+#content3 .MT .tankWB .title .GZ dl{
+	margin-top:10px;
+}
+#content3 .MT .tankWB .title .GZ dl a{
+	padding-left:4px;
+	display:block;
+	width: 67px;
+	height: 29px;
+	background:url(../images/WOT/btns_bg.png) no-repeat 0 -30px;
+	line-height:29px;
+	text-align:center;
+}
+#content3 .MT .tankWB .title .GZ dl a i{
+	display:block;
+	width: 8px;
+	height: 8px;
+	background:url(../images/WOT/icon_follow.png) no-repeat;
+	margin:10px 3px 0 0;
+	float:left;
+}
+#content3 .MT .tankWB .title .GZ dl a span{
+	float:left;
+	color:#fff;
+	font-size:12px;
+}
+#content3 .MT .tankWB .con{
+	height: 200px;
+}
+#content3 .MT .tankWB .bot{
+	width: 449px;
+	height: 121px;
+	background:url(../images/WOT/codeBg.jpg) no-repeat;
+	position:relative;
+}
+#content3 .MT .tankWB .bot img{
+	float:left;
+	margin-left:13px;
+	margin-top:13px;
+}
+#content3 .MT .tankWB .bot p{
+	position:absolute;
+	top:10px;
+	left:217px;
+	font-size:16px;
+	color:#fff7e3;
+	font-family:"微软雅黑";
+}
+#content4{
+	width: 100%;
+	height: 258px;
+	margin-bottom:18px;
+}
+#content4 .YXG{
+	width: 726px;
+	margin-right:13px;
+}
+#content4 .YXG h4{
+	width: 678px;
+	position:relative;
+	padding-bottom:8px;
+	padding-left:48px;
+	font-weight:normal;
+	font-family:"微软雅黑";
+}
+#content4 .YXG h4 b{
+	width: 38px;
+	height: 38px;
+	display:block;
+	background:url(../images/WOT/sprite.png) no-repeat -711px -258px;
+	position:absolute;
+	left:0;
+	top:0;
+}
+#content4 .YXG h4 span{
+	color:#fff7e3;
+	font-size:20px;
+	line-height:38px;
+}
+#content4 .YXG h4 a{
+	display:block;
+	width: 38px;
+	height: 38px;
+	background:url(../images/WOT/sprite.png) no-repeat -749px -30px;
+	position:absolute;
+	right:0;
+	top:0;
+}
+#content4 .YXG h4 ul{
+	height: 24px;
+	width: 225px;
+	position:absolute;
+	left:150px;
+	top:10px;
+}
+#content4 .YXG h4 ul li{
+	float:left;
+	width: 56px;
+	height: 22px;
+	border:1px solid #bbbbbb;
+	border-radius:11px;
+	font-size:14px;
+	line-height:22px;
+	text-align:center;
+	margin-left:17px;
+	color:#fff;
+	cursor:pointer;
+}
+#content4 .YXG h4 ul li:hover{
+	background:#d25400;
+	border:1px solid #d25400;
+}
+#content4 .YXG h4 ul li.curr{
+	background:#d25400;
+	border:1px solid #d25400;
+}
+#content4 .YXG .tabBox{
+	width: 100%;
+	height: 210px;	
+	background:url(../images/WOT/tabBox.png) repeat center center;
+	border:1px solid #2a292d;
+}
+#content4 .YXG .tablist{
+	padding:10px;
+	position:relative;
+	width: 704px;
+	height: 189px;
+}
+#content4 .YXG .tablist #prev{
+	background:url(../images/WOT/sprite.png) no-repeat -222px -272px;
+	display:block;
+	width: 51px;
+	height: 164px;
+	position:absolute;
+	top:10px;
+	left:10px;
+}
+#content4 .YXG .tablist #next{
+	background:url(../images/WOT/sprite.png) no-repeat -324px -272px;
+	display:block;
+	width: 51px;
+	height: 164px;
+	position:absolute;
+	top:10px;
+	right:10px;
+}
+#content4 .YXG .tablist #prev:hover{
+	background:url(../images/WOT/sprite.png) no-repeat -273px
+	-272px;
+}
+#content4 .YXG .tablist #next:hover{
+	background:url(../images/WOT/sprite.png) no-repeat -375px
+	-272px;
+}
+#content4 .YXG .tablist .box{
+	width: 600px;
+	height: 189px;
+	margin:0 auto;
+	overflow:hidden;
+}
+#content4 .YXG .tablist .box .smallbox{
+	width: 1200px;
+	margin:0;
+}
+#content4 .YXG .tablist .box .smallbox li{
+	width: 292px;
+	margin:0 4px;
+	float:left;
+	position:relative;
+	cursor:pointer;
+}
+#content4 .YXG .tablist .box .smallbox li img{
+	display:block;
+	position:relative;
+	margin-bottom:6px;
+	height: 164px;
+}
+#content4 .YXG .tablist .box .smallbox li b{
+	width: 292px;
+	height: 164px;
+	position:absolute;
+	top:0;
+	left:0;
+	background:rgba(0,0,0,0.5);
+	display:none;
+}
+#content4 .YXG .tablist .box .smallbox li span{
+	color:#fff;
+	font-size:14px;
+	font-family:"微软雅黑";
+}
+#content4 .YXG .tablist .box .smallbox li p{
+	background:url(../images/WOT/sprite.png) no-repeat 0 -291px;
+	width: 65px;
+	height: 65px;
+	display:block;
+	margin-left:-32px;
+	position:absolute;
+	left:50%;
+	top:48px;
+}
+#content4 .YXG .tablist .box .smallbox li:hover b{
+	display:block;
+}
+#content4 .YXG .tablist .box .smallbox2 li p{
+	background:url(../images/WOT/sprite.png) no-repeat -110px -300px;
+	width: 65px;
+	height: 65px;
+	display:block;
+	margin-left:-32px;
+	position:absolute;
+	left:50%;
+	top:48px;
+}
+#content4 .MT{
+	width: 451px;
+	height: 258px;
+}
+#content4 .MT h4{
+	padding-bottom:8px;
+	padding-left:48px;
+	position:relative;
+}
+#content4 .MT h4 b{
+	display:block;
+	width: 38px;
+	height: 38px;
+	background:url(../images/WOT/sprite.png) no-repeat -711px -296px;
+	position:absolute;
+	left:0;
+	top:0;
+}
+#content4 .MT h4 span{
+	color:#fff7e3;
+	font-size:20px;
+	line-height:38px;
+	font-family:"微软雅黑";
+	font-weight:normal;
+}
+#content4 .MT .Box{
+	width: 449px;
+	height: 210px;
+	border:1px solid #2a292d;
+	background:url(../images/WOT/tabBox.png) repeat center center;
+}
+#content4 .MT .Box dl{
+	padding:10px;
+}
+#content4 .MT .Box dl dd{
+	width: 150px;
+	height: 190px;
+	float:left;
+}
+#content4 .MT .Box dl dd a img{
+	display:block;
+	height: 62px;
+	width: 150px;
+	margin-bottom:2px;
+}
+#content4 .MT .Box dl dt{
+	width: 263px;
+	height: 180px;
+	padding-left:16px;
+	padding-top:3px;
+	float:left;
+}
+#content4 .MT .Box dl dt a{
+	color: #999999;
+	font-size:14px;
+	display:block;
+	margin-top:13px;
+}
+#content4 .MT .Box dl dt a:hover{
+	text-decoration:underline;
+}
+#content5{
+	width: 100%;
+	height: 308px;
+	margin-bottom:18px;
+}
+#content5 .PHB{
+	width: 726px;
+	height: 100%;
+}
+#content5 .PHB h4{
+	padding-bottom:8px;
+	padding-left:48px;
+	position:relative;
+	font-family:"微软雅黑";	
+	font-weight:normal;
+}
+#content5 .PHB h4 b{
+	width: 38px;
+	height: 38px;
+	background:url(../images/WOT/sprite.png) no-repeat -711px -334px;
+	display:block;
+	position:absolute;
+	left:0;
+	top:0;
+}
+#content5 .PHB h4 span{
+	color:#fff7e3;
+	font-size:20px;
+	line-height:38px;
+}
+#content5 .PHB h4 .chose{
+	width: 608px;
+	height: 30px;
+	position:absolute;
+	top:5px;
+	right:0;
+}
+#content5 .PHB h4 .chose .se{
+	width: 148px;
+	height: 30px;
+	line-height:29px;
+	background:#3a3a40;
+	border-radius:15px;
+	color:#fff7e3;
+	font-size:14px;
+	margin-left:4px;
+	float:left;
+	position:relative;
+}
+#content5 .PHB h4 .chose .se p{
+	cursor:pointer;
+	width: 123px;
+	height: 100%;
+	padding:0 10px 0 15px;
+	position:absolute;
+	left:0;
+}
+#content5 .PHB h4 .chose .se i{
+	border-color: #f25422 transparent transparent;
+    border-style: solid;
+    border-width: 10px 6px 0;
+    height: 0;
+    overflow: hidden;
+    right: 10px;
+    top: 10px;
+    width: 0;
+    z-index: 1;
+    position:absolute;
+    cursor:pointer;
+}
+#content5 .PHB h4 .chose .se ul{
+	width: 100%;
+	line-height:20px;
+	background:#3a3a40;
+	border:1px solid #444453;
+	color:#fff7e3;
+	overflow-x:hidden; 
+	overflow-y:auto;
+	padding-bottom:4px;
+	position:absolute;
+	top:31px;
+	left:0;
+	display:none;
+}
+#content5 .PHB h4 .chose .se ul li{
+	padding:2px 10px 0 15px;
+	cursor:pointer;
+	word-break: keep-all
+}
+#content5 .PHB h4 .chose .se ul li:hover{
+	color:#f25422;
+}
+#content5 .PHB h4 .chose .se ul li.curr{
+	color:#f25422;
+}
+#content5 .PHB .list{
+	width: 724px;
+	height: 260px;
+	background:rgb(26,25,25);
+	border:1px solid #393731;
+	position:relative;
+}
+#content5 .PHB .list .Gx{
+	width: 100%;
+	left:0;
+	bottom:6px;
+	position:absolute;
+	text-align:center;
+	font-size:14px;
+	color:#F25422;
+}
+#content5 .PHB .list .online-list{
+	width: 100%;
+	height: 100%;
+}
+#content5 .PHB .list .online-list-center{
+	width: 97%;
+	margin:0 auto;
+	font-size:14px;
+}
+#content5 .PHB .list .online-list-center .top div{
+	padding:12px 0 10px;
+	color:#fff;
+	line-height:2;
+	text-align:center;
+	float:left;
+	border:1px solid #1A1919;
+}
+#content5 .PHB .list .online-list-center .top div p{
+	width: 100%;
+	display:block;
+	background:#444453;
+}
+#content5 .PHB .list .online-list-center .one{
+	width: 15%;
+}
+#content5 .PHB .list .online-list-center .two{
+	width: 23%;
+}
+#content5 .PHB .list .online-list-center .three{
+	width: 37%;
+}
+#content5 .PHB .list .online-list-center .four{
+	width: 23%;
+}
+#content5 .PHB .list .today{
+	width: 100%;
+	height: 176px;
+}
+#content5 .PHB .list .today ul{
+	width: 100%;
+	height:35px;
+	font-family:"微软雅黑";
+}
+#content5 .PHB .list .today ul li{
+	float:left;
+	text-align:center;
+	line-height:35px;
+	color:#999999;
+	font-size:14px;
+}
+#content5 .Newstime{
+	width: 449px;
+	height: 306px;
+	background:url(../images/WOT/mTimeBg.jpg) no-repeat;
+	border:1px solid #514436;
+}
+#content5 .Newstime .time{
+	padding-bottom:9px;
+	padding-right:20px;
+	padding-left:20px;
+	font-family:"微软雅黑";
+}
+#content5 .Newstime .time h4{
+	color:#D25400;
+	font-size:24px;
+	font-weight:normal;
+	line-height:45px;
+}
+#content5 .Newstime .time p{
+	display:block;
+	color:#D3D3D4;
+	font-size:14px;
+	line-height:25px;
+	margin-bottom:2px;
+	text-align:center;
+	background:#2F3746;
+}
+#content5 .Newstime .KF{
+	border-top:1px solid #514436;
+	padding-left:20px;
+	padding-right:20px;
+	font-family:"微软雅黑";
+}
+#content5 .Newstime .KF h4{
+	color:#D25400;
+	font-size:24px;
+	font-weight:normal;
+	line-height:45px;
+}
+#content5 .Newstime .KF p{
+	color:#EEEDEC;
+	font-size:14px;
+}
+#content5 .Newstime .KF ul{
+	margin:12px -6px 0;
+}
+#content5 .Newstime .KF ul a{
+	display:block;
+	text-align:center;
+	width: 91px;
+	line-height:28px;
+	border:1px solid #D25400;
+	color:#D25400;
+	float:left;
+	margin:0 6px;
+}
+#content5 .Newstime .KF ul a:hover{
+	background:#D25400;
+	color:#fff;
+}
+#content6{
+	width: 100%	;
+	margin-bottom:30px;
+}
+#content6 h4{
+	padding-bottom:8px;
+	padding-left:48px;
+	position:relative;
+	font-weight:normal;
+	font-family: "微软雅黑";
+}
+#content6 h4 b{
+	width: 38px;
+	height: 38px;
+	display:block;
+	background:url(../images/WOT/sprite.png) no-repeat -711px -30px;
+	position:absolute;
+	left:0;
+	top:0;
+}
+#content6 h4 span{
+	color:#FFF7E3;
+	font-size:20px;
+	line-height:38px;
+}
+#content6 .LunBo{
+	width: 100%;
+	height: 115px;
+	overflow:hidden;
+}
+#content6 .LunBo .long{
+	width: 3636px;
+}
+#content6 .LunBo .long li{
+	float:left;
+	height: 115px;
+	margin-right:23px;
+	width: 280px;
+}
+#content7{
+	width: 100%;
+	font-size:12px;
+	margin-bottom:30px;
+	text-align:center;
+}
+/*footer*/
+#footer{
+	width: 100%;
+	height:100px;
+	color:#6D6862;
+	background:#000;
+	position:absolute;
+	font-family:"宋体";
+	padding-bottom:60px;
+	padding-top:26px;
+	position:relative;
+	border-top:1px solid #E47601;
+
+}
+#footer .footcenter{
+	width: 800px;
+	height: 100px;
+	margin:0 auto;
+	background:url(../images/WOT/f_hr.png) no-repeat 251px 0;
+	position:relative;
+}
+#footer .logo{
+	width: 280px;
+	position:absolute;
+	top:0;
+	left:0;
+}
+#footer .logo a{
+	width: 105px;
+	height: 50px;
+	margin-right:20px;
+}
+#footer .word{
+	width: 520px;
+	height: 100px;
+	position:absolute;
+	top:0;
+	right:0;
+}
+#footer .word{
+	font-size:12px;
+	line-height:20px;
+}
+#footer .word a{
+	color:#6D6862;
+}
+#footer .word a:hover{
+	text-decoration:underline;
+}
+/*footer end*/
+/*xuanfu*/
+#xuanfu{
+	width: 100px;
+	height: 330px;
+	position:absolute;
+	left:3%;
+	top:590px;
+}
+#xuanfu li{
+	width: 100%;
+	height: 100%;
+	position:relative;
+}
+#xuanfu li span{
+	position:absolute;
+	width: 15px;
+	height: 15px;
+	display:block;
+	top:0;
+	right:0;
+	cursor:pointer;
+	background:url(../images/WOT/dclose.png) no-repeat;
+	z-index:4;
+}
+#xuanfu a{
+	width: 100%;
+	height: 100%;
+	position:absolute;
+	left:0;
+	top:0;
+	z-index:2;
+}
+#xuanfu_1{
+	width: 100px;
+	height: 330px;
+	position:absolute;
+	right:3%;
+	top:590px;
+}
+#xuanfu_1 li{
+	width: 100%;
+	height: 100%;
+	position:relative;
+}
+#xuanfu_1 li span{
+	position:absolute;
+	width: 15px;
+	height: 15px;
+	display:block;
+	top:0;
+	right:0;
+	cursor:pointer;
+	background:url(../images/WOT/dclose.png) no-repeat;
+	z-index:4;
+}
+#xuanfu_1 a{
+	width: 100%;
+	height: 100%;
+	position:absolute;
+	left:0;
+	top:0;
+	z-index:2;
+}
+/*xuanfu end*/
